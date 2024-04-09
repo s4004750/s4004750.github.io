@@ -1,0 +1,39 @@
+* {
+    color: hotpink;
+}
+
+h1 {
+    color: rgb(98, 0, 255);
+}
+
+p {
+    color: red;
+}
+
+.mycolors {
+    color:blueviolet;
+}
+
+#venue {
+    color:black;
+}
+
+[data-email="email"]{
+    color:blueviolet;
+}
+
+ul > li {
+    color:rgb(40, 182, 57);
+}
+
+li > strong {
+    color: black;
+}
+
+.salsa-regular {
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem
+  }
+  

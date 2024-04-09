@@ -1,0 +1,30 @@
+body {
+    background-color: #4000ff;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* color: #e5e5cb; */
+    color: #ff00ee;
+    font-size: 3rem;
+  }
+  h1 {
+    font: size 2rem;
+  }
+
+  .outer {
+    border:2px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 200px;
+
+  }
+
+  p {
+    padding: 40px;
+  }
