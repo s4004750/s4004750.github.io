@@ -1,11 +1,11 @@
 body {
     background-color: #4000ff;
     display: flex;
-    text-align: center;
+    text-align: right;
     margin: auto;
     max-width: 1000px;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
