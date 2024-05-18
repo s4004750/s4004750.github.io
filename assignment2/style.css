@@ -16,6 +16,8 @@
   
   body {
     font-family: "Josefin Sans", sans-serif;
+/* I wanted to use this font as the primary choice on the media player as it 
+*/
     background-color: var(--primary-bg-color);
     color: var(--text-color);
     line-height: 1.6;
