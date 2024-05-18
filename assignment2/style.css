@@ -1,17 +1,17 @@
 :root {
-    --primary-bg-color: #f4f4f4;
+    --primary-bg-color: #ffffff;
     --text-color: #333;
-    --main-bg-color: #333;
-    --main-text-color: #fff;
-    --main-btn-bg-color: #938989;
+    --main-bg-color: #ecfcfd;
+    --main-text-color: #393939;
+    --main-btn-bg-color: #fcfbde;
   }
   
   body,
   h1,
   p,
   ul {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
   }
   
   body {
@@ -30,10 +30,12 @@
   /* Add additional styles as needed */
   
   /* Create a container for the main content */
+
   .container {
     max-width: 1000px;
     width: 100%;
     padding: 10px;
+    align-items: center;
   }
   
   /* Header styling */
@@ -70,6 +72,7 @@
   .media-player {
     width: 100%;
     margin: 0 auto;
+    align-items: center;
   }
   
   .media-player video {
