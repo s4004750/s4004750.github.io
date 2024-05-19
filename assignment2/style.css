@@ -1,7 +1,7 @@
 :root {
-    --primary-bg-color:#fcfbde ;
+    --primary-bg-color:#f8f7d9 ;
     --text-color: #333;
-    --main-bg-color: #ecfcfd;
+    --main-bg-color: #fbfae583;
     --main-text-color: #393939;
     --main-btn-bg-color: #fcfbde;
   }
@@ -10,35 +10,50 @@
   h1,
   p,
   ul {
-    margin: 0;
-    padding: 0;
-    /* align-items: center;
-    text-align: center; */
+    align-items: center;
+    text-align: center;
+  }
+
+  .bruno-ace-regular {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   h1 {
-    font-weight: 700;
-    font-size: 25px;
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
   }
   
   h2 {
-    font-weight: 200;
-    font-size: 15;
+    font-weight: bold;
+    font-size: 25px;
   }
 
   h3 {
-    font-weight: 300;
-    font-size: 15;
+    font-weight: normal;
+    font-size: 15px;
   }
 
   p {
-    font-weight: 200;
-    font-size: 15;
+    font-weight: 200px;
+    font-size: 10px;
+  }
+
+  footer {
+    font-weight: 100px;
+    font-size: 10px;
+  }
+
+  ul {
+    font-size: 15px;
+    font-weight: lighter;
   }
 
 
   body {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Bruno Ace", sans-serif;
 /* I wanted to use this font as the primary choice on the media player as it */
     background-color: var(--primary-bg-color);
     color: var(--text-color);
@@ -58,8 +73,8 @@
     font-size: 1rem;
     /* background-color: rgb(182, 237, 255); */
     border: 1mm dashed rgba(255, 247, 209, 0.936);
-    margin: 190;
-    padding: 190;
+    margin: center;
+    padding: none;
     background: url('background.jpeg') no-repeat center center fixed;
     background-size: cover;
     /* I used this image as the background because it compliments the cd-player well, and additionally
