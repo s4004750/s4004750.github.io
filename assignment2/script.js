@@ -34,7 +34,7 @@ function toggleReplay() {
 // That was the main reason as to why I wanted to add in the 'Replay' button onto this media player. 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const audio = document.replayBtn('audio');
+    // const audio = document.replayBtn('audio');
     const replayButton = document.replayBtn('replayButton');
 
     replayButton.addEventListener('click', () => {
@@ -51,3 +51,25 @@ function updateProgressBar() {
 // like to see where they are throughout the song. However for this circumstance, being that it is a media player,
 // for those who are wanting to relax or study, it is a small and minor movement on the screen that doesnt 
 // detract attention from whatever the user is trying to maintain.
+
+const muteUnmuteButton = document.querySelector("#mute-unmute-btn");
+// Event listener to mute or unmute audio on clicking the button
+muteUnmuteButton.addEventListener("click", toggleAudio);
+const muteUnmuteImg = document.querySelector("#mute-unmute-img");
+
+//to mute the video we check if it is already muted or not, if not
+//mute it or unmute it.
+function toggleAudio() {
+    if (audio.muted) {
+      myAudio.muted = false;
+      muteUnmuteButton.style.backgroundColor = "#d5cea3";
+    } else {
+      myAudio.muted = true;
+      muteUnmuteButton.style.backgroundColor = "#7b775e";
+    }
+  }
+
+
+const increaseVolumeButton = document.querySelector("#increase-volume-btn");
+increaseVolumeButton.addEventListener("click", increaseVolume);
+// Event listener to increase volume on clicking the button
