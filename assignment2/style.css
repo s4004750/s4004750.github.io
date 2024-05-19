@@ -12,6 +12,7 @@
   ul {
     margin: 10;
     padding: 10;
+    align-items: center;
   }
 
   body {
@@ -33,7 +34,19 @@
     color: #383838;
     /* color:#383838 */
     font-size: 1rem;
+    /* background-color: rgb(182, 237, 255); */
+    border: 1mm solid rgba(255, 247, 209, 0.936);
+    margin: 10;
+    padding: 10;
+    background: url('background.jpeg') no-repeat center center fixed;
+    background-size: cover;
   }
+
+  .content {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
   
   /* Add additional styles as needed */
   
@@ -46,7 +59,6 @@
     align-items: center;
   }
 
-  
   /* Header styling */
   header {
     background-color: var(--main-bg-color);
@@ -133,10 +145,7 @@
     width: 100%;
   }
 
-  body {
-    background-color: rgb(182, 237, 255);
-    border: 2mm solid rgba(255, 247, 209, 0.936);
-  }
+
 
 
 
