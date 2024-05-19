@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>assignment2</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -16,21 +16,39 @@
     <header>
         <h1>Music for Relaxation or Study</h1>
       </header>
-
       <!-- Navigation Section -->
     <nav>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Music</a></li>
           <!-- Add or remove navigation items as needed -->
+          <!-- I removed the 'videos' and 'playlists' navigation items as they dont hold significance
+        on this webpage. Instead I found keeping 'Home' and 'Music' as they more obviously hold
+        a higher significance on this media player webpage. -->
         </ul>
       </nav>
+      <div class="content">
+        <h2>Relaxing Music</h2>
+        <p>
+            <img src="cdplayer2.png"
+            width="300"
+            height="300"
+            alt="this is a cd player" 
+            id="my-image" 
+             /> 
+          </p>
+    </div>
+    <!-- I used this image as I wanted to have a 'calm, y2k' themed webpage. My reasoning for this is
+    that a lot of media players that are meant for students who are studying (specifically) can look
+    aethetically really quite boring. So using a 2000s cd-player as the core image, not only 
+    makes the webpage more attractive to the viewer, it also doesnt deter their attention from whatever
+    work they are aiming to complete. -->
   
       <!-- Main Content Section -->
       <main class="container">
-
+         
         <!-- Media Player Section -->
-        <h1>study music</h1>
+        <h3>erokia_ambient-wave-56-msfxp7-78.mp3</h3>
         <div class="media-player">
             <audio id="custom-audio-player" controls>
             <source
@@ -38,6 +56,9 @@
             type="audio/mp3"
             />
             </audio>
+            <!-- I chose to use the context of "Music for relaxation or study" because I wanted to 
+            create a more appealing media player, rather than one that is bland. -->
+    
             <div class="custom-controls">
                 <button id="play-pause-btn" onclick="togglePlayPause()">
                     <img
@@ -48,43 +69,37 @@
                       height="24"
                     />
                   </button>
-            
-            <img src="cdplayer2.png">
+                  <button id="replay-btn" onclick="toggleReplay()">
+                    <img
+                      id="replay-img"
+                      src="icons8-replay-30.png"
+                      alt="Replay Button"
+                      width="24"
+                      height="24"
+                    />
+                  </button>
+                </div>
+                <!-- When adding in another functionality button I used the same process/techniques 
+                that were used for the 'play-pause-button', by using skills from classes I eliminated
+                parts of the code that woudlnt work within this 'replay-button'. Such as, during the
+                onclick, I changed the toggle to be 'Replay', rather than 'PlayPause'. This was able to work
+                successfully within the code. -->
 
-            <!-- <img src="cdplayer.jpeg">
-            <img src="candles.png"
-            alt="this is a candle" 
-            id="my-candle" 
-            data-candle="candle" -->
-            
-        <!-- </div> -->
-
-
-    
-            <!-- add the missing buttons or functionality here -->
             <!-- pause, fast forward? stop -->
+                <div class="progress-bar">
+                    <span id="progress-bar-fill"></span>
+                  </div>
+            </div>
+         </div>
 
-            <div class="progress-bar">
-                <span id="progress-bar-fill"></span>
-              </div>
-          </div>
-        </div>
-  
-        <!-- Additional Content Section -->
-        <!-- <section>
-          <h2>Additional Content</h2>
-          <p>This is where you can showcase any other relevant content.</p>
-          Add more content as needed -->
-        </section> 
       </main>
-  
-      <!-- Footer Section -->
       <footer>
         <p>&copy; 2024 Media Player Website. All rights reserved.</p>
         <a href="https://icons8.com/icon/59862/play">Play</a> icon by
         <a href="https://icons8.com">Icons8</a>
         <a href="https://icons8.com/icon/61012/pause">Pause</a> icon by
         <a href="https://icons8.com">Icons8</a>
+        <a href="icons8-replay-30.png">Icons8</a>icon by
       </footer>
 </body>
 </html>
