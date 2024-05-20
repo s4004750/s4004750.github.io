@@ -3,7 +3,7 @@
     --text-color: #09005b;
     --main-bg-color: #fbfae583;
     --main-text-color: #0d005f;
-    --main-btn-bg-color: #f7f5c9;
+    --main-btn-bg-color: #fffdc6;
   }
   
   body,
@@ -26,6 +26,7 @@
     font-size: 40px;
     color: #7009ff;
   }
+  /* I chose to make the heading of the webpage, media player this colour because  */
   
   h2 {
     font-weight: bolder;

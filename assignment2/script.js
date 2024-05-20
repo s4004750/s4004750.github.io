@@ -74,8 +74,6 @@ function toggleSound() {
         audio.muted = true;
     }
   }
-
-
 const increaseVolumeButton = document.querySelector("#increase-volume-btn");
 increaseVolumeButton.addEventListener("click", increaseVolume);
 // Event listener to increase volume on clicking the button
