@@ -52,20 +52,26 @@ function updateProgressBar() {
 // for those who are wanting to relax or study, it is a small and minor movement on the screen that doesnt 
 // detract attention from whatever the user is trying to maintain.
 
-const muteUnmuteButton = document.querySelector("#mute-unmute-btn");
-// Event listener to mute or unmute audio on clicking the button
-muteUnmuteButton.addEventListener("click", toggleAudio);
-const muteUnmuteImg = document.querySelector("#mute-unmute-img");
+const muteUnmuteButton = document.querySelector("#mute-unmute-button");
+console.log(muteUnmuteIcon);
+
+const muteUnmuteIcon = document.querySelector("#mute-unmute-icon");
+console.log(muteUnmuteIcon);
+
+muteUnmuteButton.addEventListener("click", toggleSound);
+// const muteUnmuteImg = document.querySelector("#mute-unmute-img");
 
 //to mute the video we check if it is already muted or not, if not
 //mute it or unmute it.
-function toggleAudio() {
+function toggleSound() {
     if (audio.muted) {
-      myAudio.muted = false;
       muteUnmuteButton.style.backgroundColor = "#d5cea3";
+      muteUnmuteIcon.src = "https://img.icons8.com/ios-glyphs/30/high-volume--v2.png";
+      audio.muted = false;
     } else {
-      myAudio.muted = true;
-      muteUnmuteButton.style.backgroundColor = "#7b775e";
+        muteUnmuteButton.style.backgroundColor = "#8879bd";
+        muteUnmuteIcon.src = "https://img.icons8.com/ios-glyphs/30/no-audio--v1.png";
+        audio.muted = true;
     }
   }
 
