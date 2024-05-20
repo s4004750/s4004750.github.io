@@ -53,7 +53,7 @@ function updateProgressBar() {
 // detract attention from whatever the user is trying to maintain.
 
 const muteUnmuteButton = document.querySelector("#mute-unmute-button");
-console.log(muteUnmuteIcon);
+console.log(muteUnmuteButton);
 
 const muteUnmuteIcon = document.querySelector("#mute-unmute-icon");
 console.log(muteUnmuteIcon);
