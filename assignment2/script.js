@@ -77,3 +77,13 @@ function toggleSound() {
 const increaseVolumeButton = document.querySelector("#increase-volume-btn");
 increaseVolumeButton.addEventListener("click", increaseVolume);
 // Event listener to increase volume on clicking the button
+// function updateVolume() {
+//     const volume = myAudio.volume;
+//     console.log("Volume changed:", volume);
+//   }
+//   //volume values range from 0 to 1 with an increment of 0.1
+// function increaseVolume() {
+//     if (myAudio.volume < 0.9) {
+//       myAudio.volume += 0.1;
+//     }
+//   }
