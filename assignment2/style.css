@@ -19,6 +19,9 @@
     font-weight: 400px;
     font-style: normal;
   }
+  /* I chose this font because it is a clean yet y2k inspired font that suits the style
+  of the webpage perfectly, it also works well when bolder in size as well as lighter, 
+  which works well for the media player hierachy. */
 
   h1 {
     font-family: "Bruno Ace", sans-serif;
