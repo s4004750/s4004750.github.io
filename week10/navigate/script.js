@@ -7,3 +7,4 @@ function gotoFooter() {
     // window.location.href = "#button";
     window.location.href = "https://www.abc.net.au/"
 }
+// window.location is how to navigate???
