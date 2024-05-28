@@ -50,3 +50,5 @@ const wvscroll = document.querySelector("#wvscroll");
 function getWVScroll() {
   wvscroll.textContent = window.scrollY;
 }
+
+// w3schools can help!!! if you dont know what something like scrollY is!
