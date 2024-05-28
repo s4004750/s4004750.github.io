@@ -8,6 +8,7 @@ catImg.addEventListener("mouseover", showInfo);
 catImg.addEventListener("mouseover", hideInfo);
 
 moreInfo.innerHTML = "<p>Add to cart</p>"
+
 function showInfo() {
     moreInfo.classList.add("show");
 }
