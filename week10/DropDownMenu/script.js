@@ -9,3 +9,4 @@ profileButton.addEventListener("click", toggleMenu);
 function toggleMenu() {
     profileContent.classList.toggle("show");
 }
+
