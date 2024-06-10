@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cher's Wardrobe Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="slideshow" id="slideshow1">
+            <img src="white-t-shirt.png" class="slide" style="display: block;">
+            <img src="shirt2.png" class="slide">
+            <img src="image3.jpg" class="slide">
+            <img src="">
+            <!-- Add more images as needed -->
+        </div>
+        <div class="controls">
+            <button class="prev" onclick="prevSlide(1)">&#10094;</button>
+            <button class="next" onclick="nextSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="slideshow" id="slideshow2">
+            <img src="skirt.png" class="slide" style="display: block;">
+            <img src="pants2.png" class="slide">
+            <img src="pants3.png" class="slide">
+            <img src="pants4.png" class="slide">
+            <!-- Add more images as needed -->
+        </div>
+        <div class="controls">
+            <button class="prev" onclick="prevSlide(2)">&#10094;</button>
+            <button class="next" onclick="nextSlide(2)">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
