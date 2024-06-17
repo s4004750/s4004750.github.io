@@ -72,17 +72,17 @@ webpage. */
     cursor: pointer;
     border-radius: 5px;
 }
-
-.controls button:hover {
-    background-color: rgb(255, 0, 221);
-    color:#00ff11
-}
 /* The colour selection used here in ".controls button" and ".controls button:hover" 
 were made meticulously, I wanted one of the colours to match the bright hot pink that
 was used for the heading and the subheading. However, I also wanted something more 
 striking and I found that bright green matches well with the pink and is also within
 the Y2K style too. So I used this bright green for the stars around the border of the
 "cyber closet" as well. */
+.controls button:hover {
+    background-color: rgb(255, 0, 221);
+    color:#00ff11
+}
+
 
 
 
