@@ -11,7 +11,10 @@
 </head>
 <body>
     <h1>Cyber Closet </h1>
-    What outfit are you going to wear today??
+    What outfit are you going to wear today?
+    <!-- I wanted to have the name of the webpage first, and then a short concise 
+     description of what the webpage has to offer, in this case you can assume the 
+     page is about picking your outfits.  -->
 
     <div class="slideshow-container"; style="text-align: center;">
         <div class="slideshow" id="slideshow1">
@@ -25,14 +28,15 @@
             <img src="SHIRT8.png" class="slide" style="display: block;"alt="Description" width="220" height="300">
             <img src="SHIRT9.png" class="slide" style="display: block;"alt="Description" width="220" height="300">
             <img src="SHIRT10.png" class="slide" style="display: block;"alt="Description" width="220" height="300">
-
         </div>
         <div class="controls"; style="text-align: center;">
             <button class="prev" onclick="prevSlide(1)">&#10094;</button>
             <button class="next" onclick="nextSlide(1)">&#10095;</button>
         </div>
     </div>
- 
+ <!-- As you can see here, in the divide of "pants" and "shirts" I did this intentionally
+  so it would be not only easier for the user to look at the clothing items, but they 
+  would be in the right order (ie, shirts above and pants below). -->
    
     <div class="slideshow-container"; style='text-align: center;'>
         <div class="slideshow" id="slideshow2">
@@ -54,7 +58,14 @@
             <button class="next" onclick="nextSlide(2)">&#10095;</button>
         </div>
     </div>
+    <!-- I decided to use this button because it was simple and I liked not only the size
+     but how it moved with the image when the sizes change on the webpage. -->
 
     <script src="script.js"></script>
+    <!-- It took me a really long time to understand why the itmes of clothings would 
+     come up as a long row before clicking the buttons and then returning to a singular 
+     image at a time, however I realised it was because the script source link was 
+     at the top of the page whereas, now, it is not and the webpage looks much cleaner 
+     and simple for useability. -->
 </body>
 </html>

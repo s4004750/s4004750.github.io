@@ -2,7 +2,9 @@ body {
     font-family: "Press Start 2P", system-ui;
         font-weight: 400;
         font-style: normal;
-/* I wanted to use this font as the primary choice on the media player as it */
+/* I chose for "Press Start 2P" to be my primary font as it has a very Y2K/cyber aesthetic
+to it. It works well in the style that is also on the webpage such as the background and
+clothing items. */
     background-color: var(--primary-bg-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -17,29 +19,29 @@ body {
     font-weight: 700;
     font-style: normal;
     color: #ff00cc;
-    /* color:#383838 */
     font-size: 1rem;
-    /* background-color: rgb(182, 237, 255); */
-    /* border: 1mm dashed rgba(255, 247, 209, 0.936); */
     margin: center;
     padding: none;
-    background: url('final4.png') no-repeat center center fixed;
+    background: url('FINAL11.png') no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
-
-    /* I used this image as the background because it compliments the cd-player well, and additionally
-    blue and purples are calming colours.  */
+/* I created my own background image for this webpage as it needed a specific dimension
+and aesthetic in order for it to fully encompass the vision from the presentation. I used 
+Adobes Illustrator in order to create it. */
   }
 
   .slideshow-container {
     position: relative;
     max-width: 80%;
     margin: 20px 0;
-    border: 2px solid #fff;
+    border: 2px solid #ffffff00;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
 }
+
+/* I found not having a border around the images made a cleaner all around look for the
+webpage. */
 
 .slideshow {
     display: flex;
@@ -63,18 +65,24 @@ body {
 }
 
 .controls button {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(13, 255, 0);
     border: none;
-    color: #fff;
+    color: #ff00bb;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
 }
 
 .controls button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(255, 0, 221);
+    color:#00ff11
 }
-
+/* The colour selection used here in ".controls button" and ".controls button:hover" 
+were made meticulously, I wanted one of the colours to match the bright hot pink that
+was used for the heading and the subheading. However, I also wanted something more 
+striking and I found that bright green matches well with the pink and is also within
+the Y2K style too. So I used this bright green for the stars around the border of the
+"cyber closet" as well. */
 
 
 
