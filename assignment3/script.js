@@ -5,7 +5,7 @@ showSlides(1, slideIndex1);
 showSlides(2, slideIndex2);
 
 function nextSlide(n) {
-    if (n === 1) {
+    if (n == 1) {
         showSlides(1, ++slideIndex1);
     } else {
         showSlides(2, ++slideIndex2);
@@ -13,12 +13,15 @@ function nextSlide(n) {
 }
 
 function prevSlide(n) {
-    if (n === 1) {
+    if (n == 1) {
         showSlides(1, --slideIndex1);
     } else {
         showSlides(2, --slideIndex2);
     }
 }
+// It was really difficult figuring out this code for this assignment however I used 
+// resources such as free online lectures, youtube videos and advice from people who know
+// code. 
 
 function showSlides(slideshowNum, n) {
     let slides = document.querySelectorAll(`#slideshow${slideshowNum} .slide`);
