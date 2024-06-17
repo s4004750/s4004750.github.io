@@ -1,0 +1,76 @@
+body {
+    font-family: "Bruno Ace", sans-serif;
+/* I wanted to use this font as the primary choice on the media player as it */
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: space-between;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #383838;
+    /* color:#383838 */
+    font-size: 1rem;
+    /* background-color: rgb(182, 237, 255); */
+    /* border: 1mm dashed rgba(255, 247, 209, 0.936); */
+    margin: center;
+    padding: none;
+    background: url('idk.png') no-repeat center center fixed;
+    background-size: cover;
+    /* I used this image as the background because it compliments the cd-player well, and additionally
+    blue and purples are calming colours.  */
+  }
+
+  .slideshow-container {
+    position: relative;
+    max-width: 80%;
+    margin: 20px 0;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slideshow {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.controls button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.controls button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
