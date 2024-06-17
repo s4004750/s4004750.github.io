@@ -49,3 +49,18 @@ body {
 .controls button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+body {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    font-family: "Bruno Ace", sans-serif;
+}
+
+body {
+    border: 1mm dashed rgba(255, 247, 209, 0.936);
+    margin: center;
+    padding: none;
+    background: url('background_final.png') no-repeat center center fixed;
+    background-size: cover;
+}
