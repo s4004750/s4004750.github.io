@@ -19,6 +19,8 @@ clothing items. */
     font-weight: 700;
     font-style: normal;
     color: #ff00cc;
+    /* I chose this bright hot pink to be the only colour for font as it is bold and 
+    stands out infront of the black background. */
     font-size: 1rem;
     margin: center;
     padding: none;
@@ -41,7 +43,8 @@ Adobes Illustrator in order to create it. */
 }
 
 /* I found not having a border around the images made a cleaner all around look for the
-webpage. */
+webpage. But in this case instead of removing it, I just made it transparent
+in case for future possible changes.*/
 
 .slideshow {
     display: flex;
@@ -82,6 +85,9 @@ the Y2K style too. So I used this bright green for the stars around the border o
     background-color: rgb(255, 0, 221);
     color:#00ff11
 }
+/* I chose to invert the colours when hovering from their natural colour because
+it creates an easier useability for the user as well as navigation for the entire 
+webpage as this is the primary function used within it. */
 
 
 
